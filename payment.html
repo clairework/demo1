@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方案費用</title>
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <i class="bi bi-record-fill text-info h2"></i>
+            <h4 class="text-dark fw-bold">小懶蟲</h4>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">服務介紹</a>
+              </li>              
+              <li class="nav-item mx-3">
+                <a class="nav-link active" href="#">方案費用</a>
+              </li>              
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="faq.html">常見問題</a>
+              </li>              
+              <li class="nav-item mx-3">
+                <a class="btn btn-info" href="#">方案費用</a>
+              </li>
+            </ul>           
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div style="background-image: url(./images/bg_paper.png);">
+            <div class="py-5">
+                <h5 class="text-center fw-bold text-info">HAPPY LIFE</h5>
+                <h2 class="text-center fw-bold">開始當個小懶蟲</h2>
+            </div>
+        </div>                    
+      </section>
+
+      <section class="py-5 container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form action="" class="p-lg-5 shadow-lg">
+                    <h4 class="deco-line fw-bold">選擇方案</h4>
+                    <div class="row row-cols-1 row-cols-lg-3 g-2 mt-2">
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-info w-100 btn-lg text-dark fs-6 fw-bold py-3">
+                          小小搭懶蟲<br class="d-none d-lg-block">
+                          NT 298/月
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-info w-100 btn-lg text-dark fs-6 fw-bold py-3">
+                          睡一整天囉<br class="d-none d-lg-block">
+                          NT 666/月                          
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-info w-100 btn-lg text-dark fs-6 fw-bold py-3 active btn-special">
+                          客製化方案<br class="d-none d-lg-block">
+                          客服詢價
+                        </button>
+                      </div>
+                    </div>
+                    <h4 class="deco-line fw-bold my-4">填寫資料</h4>
+                    <div class="row g-2">
+                      <div class="col-md-6">
+                        <label for="inputName" class="form-label">名字</label>
+                        <input type="text" class="form-control" id="inputName" required>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputLastName" class="form-label">姓氏</label>
+                        <input type="text" class="form-control" id="inputLastName" required>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputPhone" class="form-label">手機號碼</label>
+                        <input type="tel" class="form-control" id="inputPhone" placeholder="" required>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputEmail" class="form-label">電子郵件</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="" required>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">住址</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="" required>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputTime" class="form-label">方便聯緊時間</label>
+                        <select id="inputTime" class="form-select">
+                          <option selected>13:00 - 17:00</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress2" class="form-label">住址</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                      </div>
+                      <div class="col-12">
+                        <div class="py-2">加購服務</div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">每週一清掃家裡+100</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2">按摩+50</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                          <label class="form-check-label" for="inlineCheckbox3">聽你說話+150</label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="remark" class="form-label mt-3">備註說明</label>
+                        <textarea
+                          class="form-control mb-4"
+                          name="remark"
+                          id="remark"
+                          cols="30"
+                          rows="4"
+                          style="resize: none"
+                          required></textarea>
+                      </div>
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-info w-100 mt-3 fs-5">選擇方案</button>
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </section>
+      
+      
+      <section class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4 fw-bold">需要其他協助嗎?</h2>
+          <div class="row justify-content-center g-3 g-lg-4 py-3">
+            <div class="col-10 col-md-3">
+              <div class="card border-0 shadow" style="height:84px;">
+                <div class="card-body text-center mt-2">
+                  <h4><i class="bi bi-telephone-fill text-info h4 me-2"></i>07-555-666</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-3">
+              <div class="card border-0 shadow" style="height:84px;">
+                <div class="card-body text-center mt-2">
+                  <h4><i class="bi bi-facebook text-info h3 me-2"></i>我就是個小懶蟲</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-3">
+              <div class="card border-0 shadow" style="height:84px;">
+                <div class="card-body text-center mt-2">
+                  <h4><i class="bi bi-question-lg text-info h3 me-2"></i>常見問題</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-secondary text-white text-center py-4">
+        Copyright © 2021 小懶蟲.All rights reserved.
+      </footer>
+</body>
+</html>
